@@ -20,8 +20,8 @@ This project delivers a two-stage SQL solution:
 
 | File | Description |
 | :--- | :--- |
-| **`01_data_cleaning.sql`** | SQL pipeline for staging, deduplication, text normalization, source cleanup, and schema enforcement. |
-| **`02_exploratory_data_analysis.sql`** | SQL analytical script covering baseline metrics, temporal trends, yearly rankings, stage shutdowns, and latency tracking. |
+| **`sql/01_data_cleaning.sql`** | SQL pipeline for staging, deduplication, text normalization, source cleanup, and schema enforcement. |
+| **`sql/02_exploratory_data_analysis.sql`** | SQL analytical script covering baseline metrics, temporal trends, yearly rankings, stage shutdowns, and latency tracking. |
 | **`layoffs.csv`** | Raw dataset containing global layoff events. |
 | **`README.md`** | Comprehensive project documentation and insights guide. |
 
